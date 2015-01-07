@@ -29,6 +29,6 @@ describe('trigger', function(){
         });
       })
       .listen(uri);
-    }, 2000);
+    }, 5000);
   });
 });
