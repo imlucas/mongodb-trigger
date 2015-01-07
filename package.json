@@ -27,6 +27,7 @@
     "mongodb-uri": "~0.9.7"
   },
   "devDependencies": {
-    "mocha": "~2.1.0"
+    "mocha": "~2.1.0",
+    "mongodb-runner": "~2.0.2"
   }
 }
