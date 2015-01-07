@@ -1,0 +1,32 @@
+{
+  "name": "mongodb-trigger",
+  "version": "0.0.0",
+  "description": "work in progress",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "license": "MIT",
+  "homepage": "http://github.com/imlucas/mongodb-trigger",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/mongodb-trigger.git"
+  },
+  "keywords": [
+    "mongodb.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "mt": "bin/mt.js"
+  },
+  "dependencies": {
+    "debug": "~2.1.1",
+    "docopt": "~0.4.1",
+    "mongo-oplog": "~0.1.5",
+    "mongodb": "~1.4.26",
+    "mongodb-ns": "~1.0.0",
+    "mongodb-uri": "~0.9.7"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+mt
+
+MongoDB triggers.
+
+Usage:
+  mt resync [<url> <path>]
+  mt listen [<url> <path>]
+  mt -h | --help | --version
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+
+
