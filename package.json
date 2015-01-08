@@ -1,6 +1,6 @@
 {
   "name": "mongodb-trigger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "work in progress",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
   "license": "MIT",
