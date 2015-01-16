@@ -1,17 +1,16 @@
 var assert = require('assert'),
   trigger = require('../'),
-  startMongo = require('mongodb-runner'),
+  run = require('mongodb-runner'),
   debug = require('debug')('mongodb-trigger:test');
 
 describe('trigger', function(){
   var mongo;
   before(function(done){
    debug('replicaset starting...');
-    mongo = startMongo('replicaset', {name: 'trigger_testing', port: 27800}, function(err){
+    mongo = run('replicaset', {name: 'trigger_testing', port: 27800, smallfiles: true, oplogSize: 10}, function(err){
       if(err) return done(err);
-
-        debug('replicaset ready mongodb://localhost:27800');
-        done();
+      debug('replicaset ready mongodb://localhost:27800');
+      done();
     });
   });
   after(function(done){
