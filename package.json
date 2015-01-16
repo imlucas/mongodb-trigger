@@ -13,7 +13,7 @@
     "mongodb.js"
   ],
   "scripts": {
-    "test": "m kill && m ${MONGODB_VERSION} && DEBUG=mon* mocha"
+    "test": "m kill && m ${MONGODB_VERSION} && npm install mongodb-runner@2.1.1 && DEBUG=mon* mocha"
   },
   "bin": {
     "mt": "bin/mt.js"
