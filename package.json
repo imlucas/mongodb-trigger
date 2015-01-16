@@ -13,7 +13,7 @@
     "mongodb.js"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "m kill && m ${MONGODB_VERSION} && mocha"
   },
   "bin": {
     "mt": "bin/mt.js"
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "mocha": "~2.1.0",
-    "mongodb-runner": "~2.0.2"
+    "mongodb-runner": "~2.1.0",
+    "mongodb-version-manager": "~0.7.0"
   }
 }
